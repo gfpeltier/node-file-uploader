@@ -1,0 +1,14 @@
+{
+  "name": "jpm-node-deps",
+  "version": "0.1.0",
+  "description": "Just basic project to hold express dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant Peltier",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.13.1"
+  }
+}

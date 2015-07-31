@@ -4,11 +4,19 @@
   "description": "Just basic project to hold express dependencies",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grantpeltier/node-file-uploader.git"
   },
   "author": "Grant Peltier",
   "license": "MIT",
   "dependencies": {
-    "express": "~4.13.1"
+    "express": "~4.13.1",
+    "dropzone": "~4.0.1",
+    "connect-busboy": "0.0.2",
+    "fs-extra": "~0.22.1"
   }
 }
